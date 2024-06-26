@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark .bg-white {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark .border-blue-400 {
+  border-color: #4a4a4a;
+}
+
+.dark .text-blue-800 {
+  color: #ccc;
+}
+
+.dark .bg-blue-400 {
+  background-color: #4a4a4a;
+}
+
+.dark .hover\:bg-blue-600:hover {
+  background-color: #666;
+}
+
+.dark #app {
+  background-color: #333;
+}
+
+.dark h1 {
+  border-color: #333;
+}
+
+.dark #menu {
+  background-color: rgb(51, 51, 51);
+}
