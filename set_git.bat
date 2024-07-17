@@ -3,10 +3,9 @@
 @echo off
 :: add :: before the next row to initialize the repository
 
-
 git init
-git add .
+git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/leen7awa/WEB-week-3.git
+git remote add origin https://github.com/leen7awa/ex3-web.git
 git push -u origin main
